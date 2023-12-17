@@ -1,0 +1,16 @@
+{
+    "services": [
+        {
+            "name": "service1",
+            "description": "service1",
+            "service_url": "https://service1.your_domain",
+            "img_url": ""
+        },
+        {
+            "name": "service2",
+            "description": "service2",
+            "service_url": "https://service2.your_domain",
+            "img_url": ""
+        }
+    ]
+}
