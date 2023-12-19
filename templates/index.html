@@ -6,6 +6,11 @@
 </head>
     <body>
         <h1>Self-Hosting Portal</h1>
+        <ul>
+            {% for service in services %}
+            <li><a href="{{service['service_url']}}">{{service['name']}}</a></li>
+            {% endfor %}
+        </ul>
     </body>
 </html>
 
